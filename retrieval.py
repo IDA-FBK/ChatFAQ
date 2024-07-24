@@ -50,7 +50,7 @@ def return_cross_encoder(model_name, query, titles):
             'sentences': []
         }
         if name.endswith(".txt"):
-            text = tokenize_with_overlap('Full_dataset_chatFAQ/'+name)
+            text = tokenize_with_overlap('example_docs/'+name)
             doc['sentences'] = text
             for t in text:
                 chunks.append(t)
