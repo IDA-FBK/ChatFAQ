@@ -1,0 +1,8 @@
+openai
+python-telegram-bot
+python-dotenv
+sentence_transformers
+spacy
+faiss
+vectordb
+asyncio
